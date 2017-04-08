@@ -1,13 +1,13 @@
-#基于Vue2.0+Vuex+Axios+NodeJs+Express+MySQL实现京东移动web商城
+# 基于Vue2.0+Vuex+Axios+NodeJs+Express+MySQL实现京东移动web商城
 - 经过一个多月总算完成第一个版本
-##前端架构
+## 前端架构
 - 页面结构(H5,CSS3,原生JS)
 - 框架(基于Vue脚手架:vue-cli)进行搭建
 - 数据请求处理框架(Axios)
 - Vue-Router进行路由处理
 - Vue-LazyLoad进行图片赖加载
 
-##服务端架构
+## 服务端架构
 - 选用NodeJs进行后台开发
 - Express中间件进行服务的配置，路由、请求的处理
 	- 官网 [http://www.expressjs.com.cn/](http://www.expressjs.com.cn/ "express官网")
@@ -16,10 +16,10 @@
 - Cookie-Parser、Cookie-Session进行cookie与session的处理
 
 
-##数据库选取
+## 数据库选取
 - 采用MySQL进行相关数据库的设计与实现
 
-##目前项目已实现功能
+## 目前项目已实现功能
 1. 首页数据的展示
 2. 分类页数据的展示
 3. 购物车
@@ -29,9 +29,9 @@
 7. 商品详情页
 8. 商品搜索
 
-##PC端仿京东首页
+## PC端仿京东首页
 - [https://github.com/huangche007/jd](https://github.com/huangche007/jd "pc端京东首页")
-##安装
+## 安装
 
 已安装MySQL数据库，然后导入migou.sql文件
 
@@ -74,7 +74,7 @@ node server.js
 │   └── router.config.js    // vue路由配置文件
 </pre>
 
-##项目效果图
+## 项目效果图
 
 
 ![](http://i.imgur.com/hc4Kdcv.png)
@@ -92,7 +92,7 @@ node server.js
 ![](http://i.imgur.com/sIfHd0z.png)
 
 
-### 如果这个项目对你有帮助，打赏点给作者买杯咖啡(*^__^*) 嘻嘻……
+###  如果这个项目对你有帮助，打赏点给作者买杯咖啡(*^__^*) 嘻嘻……
 
 ![](http://i.imgur.com/VgKxmhx.png)
 ....未完待续 QQ交流群:526450553
