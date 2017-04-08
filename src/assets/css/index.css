@@ -1,0 +1,309 @@
+body {
+    background-color: #F3F3F3;
+}
+
+.m_layout {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    height: 1000px;
+}
+
+.m_header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+}
+
+.m_header .m_header_box {
+    position: relative;
+    min-width: 300px;
+    max-width: 640px;
+    height: 40px;
+    margin: 0 auto;
+    background: rgba(201, 21, 35, 0);
+}
+
+.m_header_box .icon_logo {
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    background-position: 0 -103px;
+    display: block;
+}
+
+.m_header_box form {
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 60px;
+    position: relative;
+}
+
+.m_header_box form .search {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+.m_header_box form .icon_search {
+    display: block;
+    width: 37px;
+    height: 40px;
+    position: absolute;
+    left: 85px;
+    top: 10px;
+    background-position: -60px -109px;
+}
+
+.m_header_box .logo_btn {
+    display: block;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    right: 8px;
+    top: 0;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+
+/*轮播图*/
+
+.m_banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.m_banner ul:first-child {
+    width: 1000%;
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+}
+
+.m_banner ul:first-child li {
+    width: 10%;
+    float: left;
+}
+
+.m_banner ul:first-child li img {
+    width: 100%;
+    display: block;
+}
+
+
+/*点*/
+
+.m_banner ul:last-child {
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+    bottom: 10px;
+}
+
+.m_banner ul:last-child li {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    float: left;
+}
+
+.m_banner ul:last-child li:first-child {
+    margin-left: 0;
+}
+
+.m_banner ul:last-child li.now {
+    background: #fff;
+}
+
+
+/*导航*/
+
+.m_nav {
+    max-width: 100%;
+    height: 150px;
+}
+
+.m_nav ul {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.m_nav .nav_item {
+    width: 20%;
+    height: 69px;
+    float: left;
+    text-align: center;
+}
+
+.nav_item .nav_item_link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.nav_item .nav_item_link img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.nav_item .nav_item_link span {
+    font-size: 12px;
+}
+
+
+/*商品区*/
+
+.m_product {
+    margin: 0 5px;
+}
+
+
+/*common use*/
+
+.m_product .product_box {
+    box-shadow: 0 0 1px 1px #e0e0e0;
+}
+
+.m_product .product_top {
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+.product_left{
+    width: 60%;
+    height: 32px;
+    display: flex;
+}
+
+.product_left .miaosha_icon{
+    height: 30px;
+    width: 60px;
+}
+
+.product_left .dianshu{
+    display: inline-block;
+    height: 32px;
+    line-height: 27px;
+    margin-left: 8px;
+}
+
+.product_left .time{
+    line-height: 27px;
+    margin-left: 4px;
+    color: #aaa;
+}
+
+.product_content{
+    margin-top: 8px;
+
+}
+.product_content .product_skill_item{
+    width: 25%;
+    height: 130px;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product_skill_item .product_skill_item_link{
+    width: 25%;
+    height: 130px;
+    display: block;
+}
+
+.product_skill_item_link .product_skill_item_cion{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.product_skill_item_link .nowprice{
+    width: 80px;
+    text-align: center;
+    color: #F11938;
+    font-weight: 800;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+.product_skill_item_link .oldprice{
+    width: 80px;
+    text-align: center;
+    color: #aaa;
+}
+/*还没逛够*/
+.not_eng_box{
+    height: auto;
+
+}
+.left_share_quality_content{
+    width: 100%;
+}
+
+.share_quality_left{
+    width: 100%;
+}
+.not_eng_item{
+
+    text-align: center;
+    float: left;
+    width: 50%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.not_eng_link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0s;
+}
+
+.not_eng_pic{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px  0 5px 5px;
+}
+
+.not_eng_info{
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.not_eng_title{
+    overflow: hidden;
+    margin-bottom: 5px;
+    height: 36px;
+    color: #6F7474;
+    font-weight: 500;
+    font-family: "Microsoft YaHei";
+
+}
+
+.not_eng_text{
+    width: 80px;
+    color: #F11938;
+    font-weight: 800;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}

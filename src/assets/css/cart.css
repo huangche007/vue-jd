@@ -1,0 +1,369 @@
+body {
+    background-color: #F0F2F5;
+}
+
+#carttp .top_bar {
+    position: static;
+}
+
+.cart_box {
+    width: 100%;
+}
+
+.cart_box .cart_tip {
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #bfbfbf;
+    line-height: 42px;
+    text-align: center;
+    color: #aaa;
+}
+
+.login {
+    color: #fff;
+    display: inline-block;
+    background: #f15353;
+    border-radius: inherit;
+    padding: 4px 12px;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+.cart_content {
+    background-color: #fff;
+    margin: 10px 8px 0px 8px;
+    overflow: hidden;
+}
+
+.cart_content .cart_shop {
+    height: 44px;
+    width: 100%;
+}
+
+
+/*the common checkbox*/
+
+.check_box {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/shop-icon.png") no-repeat;
+    background-size: 50px 100px;
+    background-position: 0 0;
+    position: absolute;
+    left: 6px;
+    top: 12px;
+}
+
+.check_box[checked] {
+    background-position: -25px 0;
+}
+
+.cart_check_box {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.shop_info {
+    width: 100px;
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 32px;
+}
+
+.shop_info .shop_icon {
+    width: 16px;
+    height: 13px;
+    display: inline-block;
+}
+
+.cart_free {
+    height: 44px;
+    float: right;
+    line-height: 44px;
+    text-align: center;
+    color: #F23C30;
+    padding-right: 4px;
+}
+
+.cart_item {
+    background-color: #fff;
+    height: 130px;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+}
+
+.cart_item .cart_item_box {
+    position: relative;
+    width: 40px;
+    float: left;
+    background-color: #fff;
+}
+
+.cart_item_box .check_box {
+    position: absolute;
+    top: 31px;
+    left: 6px;
+}
+
+.cart_item .cart_detial_box {
+    float: left;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.cart_detial_box .cart_product_link {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.cart_detial_box .cart_product_link img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.cart_detial_box .item_names {
+    height: 34px;
+    overflow: hidden;
+}
+
+.cart_detial_box .cart_weight {
+    margin-top: 2px;
+    color: #BCCCCA;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 16px;
+}
+
+.cart_detial_box .cart_weight .my_weigth {
+    font-style: normal;
+}
+
+.cart_detial_box .cart_product_sell {
+    width: 100%;
+}
+
+.cart_detial_box .cart_product_sell .product_money {
+    font-size: 12px;
+    color: #F23030;
+}
+
+.real_money {
+    font-size: 16px;
+}
+
+.cart_product_sell .cart_add {
+    width: 100px;
+    height: 26px;
+    float: right;
+    margin-right: 20px;
+}
+
+.cart_product_sell .cart_add .my_add,
+.cart_product_sell .cart_add .my_jian {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    border: 1px solid #CBCBCB;
+    text-align: center;
+    float: left;
+}
+
+.cart_product_sell .cart_add .my_add {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.cart_product_sell .cart_add .my_jian {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.cart_product_sell .cart_add .my_count {
+    height: 24px;
+    width: 30px;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    text-align: center;
+    float: left;
+}
+
+.cart_detial_box .cart_del {
+    position: absolute;
+    right: 11px;
+    top: 98px;
+}
+
+.cart_del .del_top {
+    width: 20px;
+    height: 5px;
+    background: url("../images/delete_up.png") no-repeat;
+    background-size: 20px 5px;
+    margin-left: -1px;
+}
+
+.cart_del .del_bottom {
+    width: 18px;
+    height: 18px;
+    background: url("../images/delete_down.png") no-repeat;
+    background-size: 18px 18px;
+    margin-top: -3px;
+}
+
+.cart_footer {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #cccccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.cart_footer .all_check_box {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cart_footer .all_check_box .check_box {
+    top: 15px;
+    left: 14px;
+}
+
+.cart_footer .all_check_box span {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 36px;
+    color: #232326;
+    font-weight: 600;
+}
+
+.cart_footer .count_money_box {
+    float: left;
+    height: 50px;
+    margin-left: 80px;
+}
+
+.count_money_box .heji {
+    margin-top: 6px;
+}
+
+.count_money_box .total_money {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.count_money_box .total_money i {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.count_money_box .go_pay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 98px;
+    line-height: 50px;
+    text-align: center;
+    background: #f23030;
+    color: #fff;
+    font-size: 16px;
+    height: 49px;
+    margin-top: 1px;
+    padding: 0 16px;
+}
+
+.pop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    padding: 0 5%;
+}
+
+.pop .pop_box {
+    width: 85%;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 50% auto;
+    padding: 0 5%;
+}
+
+.pop_box .del_info {
+    text-align: center;
+    line-height: 70px;
+    font-size: 16px;
+    color: #888888;
+}
+
+.pop_box .del_cancel {
+    float: left;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    margin-right: 15%;
+}
+
+.pop_box .del_ok {
+    float: left;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    background: #D8505C;
+    color: #fff;
+    margin-left: 15%;
+}
+
+@-webkit-keyframes delBoxOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-2000px);
+        -webkit-transform: translateY(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+    }
+    75% {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+    }
+    90% {
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.delBoxOut {
+    animation: delBoxOut 1s ease;
+}

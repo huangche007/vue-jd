@@ -1,0 +1,66 @@
+body{
+    background-color: #F3F5F7;
+}
+
+.user_login_box{
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.user_login_box .login_dialog{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.login_dialog ._username{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
+}
+
+._username .user_input{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 6px;
+}
+.login_dialog .u_passwd{
+    margin-top: 10px;
+}
+
+.login_dialog .login_box{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #F23030;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.login_box a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #F23030;
+}
+
+.go_reg_box{
+    float: right;
+}
+.go_reg_box span{
+    display: inline-block;
+    color: #aaa;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}

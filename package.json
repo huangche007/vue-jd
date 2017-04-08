@@ -1,0 +1,41 @@
+{
+  "name": "vue-taobao",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "huangche",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8081",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.2",
+    "express-router": "^0.0.1",
+    "express-static": "^1.1.0",
+    "jsonp": "^0.2.1",
+    "mysql": "^2.13.0",
+    "vue": "^2.2.1",
+    "vue-lazyload": "^1.0.3"
+  },
+  "devDependencies": {
+    "axios": "^0.16.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.16.1",
+    "vue-loader": "^11.1.4",
+    "vue-router": "^2.3.1",
+    "vue-template-compiler": "^2.2.1",
+    "vuex": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}

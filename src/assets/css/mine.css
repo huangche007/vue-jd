@@ -1,0 +1,213 @@
+body{
+    background-color: #F0F2F5;
+}
+
+.mine_layout{
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 40px;
+}
+
+.mine_layout .mine_infos{
+    width: 100%;
+    height: 135px;
+    background: url("../images/userbg.png") no-repeat top center;
+    padding-top: 10px;
+    position: relative;
+}
+.mine_infos .user_icon{
+    float: left;
+    width: 76px;
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 4px;
+    position: relative;
+}
+
+.user_icon img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    z-index: 1;
+}
+
+.mine_infos .user_detal{
+    float: left;
+    color: #fff;
+    margin-top: 10px;
+}
+.user_detal .user_name{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.user_detal .reg{
+    margin-top: 8px;
+}
+.reg .reg_link{
+    color: #fff;
+}
+
+.user_detal .vip{
+    display: inline-block;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid rgba(76,74,72,0.5);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    background-color: rgba(76,74,72,0.3);
+    text-align: center;
+
+
+}
+.vip .vip_icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #4c4a48;
+    position: relative;
+}
+.vip .vip_icon img{
+    width: 11px;
+    height: 8px;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+.vip a{
+    display: inline-block;
+    color: #fff;
+    height: 18px;
+    vertical-align: top;
+}
+
+.manage_account{
+    float: right;
+    color: #E6B2B0;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.yguanzhu_box{
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.mine_infos .mmm_info{
+    width: 100%;
+    height: auto;
+}
+.item{
+    float: left;
+    width: 33%;
+    height: 45px;
+    background: rgba(0,0,0,.2);
+    text-align: center;
+    margin-left: 1px;
+}
+
+.item .item_link{
+    display: block;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+}
+.item_link span:nth-child(2){
+    display: block;
+}
+
+.my_order_box{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+
+}
+.my_order_box .order_top_box{
+    border-bottom: 1px solid #E3E5E9;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+}
+
+.order_top_box .order_left{
+    float: left;
+    height: 100%;
+    width: 30%;
+    line-height: 44px;
+    position: relative;
+}
+.order_left img{
+    width: 15px;
+    height: 18px;
+    display: inline-flex;
+    line-height: 44px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+.order_left span{
+    margin-left: 25px;
+    display: inline-flex;
+}
+.order_right{
+    float: right;
+    color: #848689;
+}
+
+.order_bottom_box{
+    height: 56px;
+    width: 100%;
+    padding: 0 10px;
+}
+.order_bottom_box ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.order_bottom_box .order_item{
+    height: 56px;
+    line-height: 56px;
+
+}
+.order_item .order_item_link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.order_item_link .order_item_pay{
+    display: block;
+    margin-top: -40px;
+    color: #848689;
+}
+.order_item_pic{
+    display: inline-block;
+    width: 21px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.my_b_info {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
