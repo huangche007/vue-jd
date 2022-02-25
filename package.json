@@ -21,7 +21,7 @@
     "vue-lazyload": "^1.0.3"
   },
   "devDependencies": {
-    "axios": "^0.16.0",
+    "axios": "^0.19.2",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-latest": "^6.0.0",
